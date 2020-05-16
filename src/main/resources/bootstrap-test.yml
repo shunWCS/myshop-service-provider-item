@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: test
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 134.175.227.125:8848
+  application:
+    name: myshop-service-provider-item-config

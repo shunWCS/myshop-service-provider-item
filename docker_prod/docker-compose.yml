@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  myshop-service-provider-item:
+    restart: always
+    image: myshop-service-provider-item
+    container_name: myshop-service-provider-item
+    ports:
+      - 9502:9502
