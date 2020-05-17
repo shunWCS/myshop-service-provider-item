@@ -6,3 +6,8 @@ services:
     container_name: myshop-service-provider-item
     ports:
       - 9502:9502
+    networks:
+      - service_provider_network
+
+networks:
+  service_provider_network:
